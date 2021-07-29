@@ -153,7 +153,7 @@ const App: FC = () => {
   const postConversation = async () => {
     try {
       await axios.put(
-        'https://virtserver.swaggerhubx.com/L8475/task/1.0.0/conversation',
+        'https://virtserver.swaggerhub.com/L8475/task/1.0.0/conversation',
         selectedOptions
       )
     } catch (error) {
